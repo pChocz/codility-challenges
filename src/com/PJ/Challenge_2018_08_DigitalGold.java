@@ -3,7 +3,8 @@ package com.PJ;
 /**
  *
  * DividingTheKingdom
- * In how many ways can you split a kingdom into two parts, so that the parts contain equal number of gold mines?
+ * In how many ways can you split a kingdom into two parts,
+ * so that the parts contain equal number of gold mines?
  *
  * ====================
  * === SILVER AWARD ===

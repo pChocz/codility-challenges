@@ -15,26 +15,26 @@ it works properly.
   #### MinTrailingZeros
   ##### Find a path in given matrix, such that the product of all the numbers on the path has the minimal number of trailing zeros.
   * detailed description: https://app.codility.com/programmers/task/min_trailing_zeros/
-  * solution report: https://app.codility.com/cert/view/certFZ2AYK-9VYWANC47QQ3GPHZ/details/
+  * certificate: https://app.codility.com/cert/view/certFZ2AYK-9VYWANC47QQ3GPHZ/
 #
 
 * October 2018 - Bromum 2018 Challenge (**GOLDEN AWARD** - 100%)
   #### Buckets
   ##### Given N buckets and M colored balls to put in them, find the earliest moment when some bucket contains Q balls of the same color.
   * detailed description: https://app.codility.com/programmers/task/buckets/
-  * solution report: https://app.codility.com/cert/view/certYNN974-82D39BX25J9Q7Q84/details/
+  * certificate: https://app.codility.com/cert/view/certYNN974-82D39BX25J9Q7Q84/
 #
 
 * September 2018 - Grand Challenge (**SILVER AWARD** - 54%)
   #### BalancedPassword
   ##### Given a string S, find the length of the longest balanced substring of S.
   * detailed description: https://app.codility.com/programmers/task/balanced_password/
-  * solution report: https://app.codility.com/cert/view/certDJSNN2-57YZ57ZAWY6G9YFG/details/
+  * certificate: https://app.codility.com/cert/view/certDJSNN2-57YZ57ZAWY6G9YFG/
 # 
  
 * August 2018 - Digital Gold Challenge (**SILVER AWARD** - 71%)
   #### DividingTheKingdom
   ##### In how many ways can you split a kingdom into two parts, so that the parts contain equal number of gold mines?
   * detailed description: https://app.codility.com/programmers/task/dividing_the_kingdom/
-  * solution report: https://app.codility.com/cert/view/certW8V56S-84QRAUSMNUY8FPYF/details/
+  * certificate: https://app.codility.com/cert/view/certW8V56S-84QRAUSMNUY8FPYF/
 #

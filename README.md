@@ -11,6 +11,7 @@ it works properly.
 ### Awards:
 
 * December 2018 - Rubidium 2018 Challenge (**SILVER AWARD** - 92%)
+  
   `DETAILS DISCLOSED UNTIL CHALLENGE WILL BE FINISHED`
   * certificate: https://app.codility.com/cert/view/certMBNGV8-98BRXQWECWW9XFCQ/
 #

@@ -8,8 +8,12 @@ detailed description as well as to the full solution report. In the [sources](/s
 code for all the attempts listed below, together with test cases that I have used for the verification that
 it works properly.
 
-### List:
+### Awards:
 
+* December 2018 - Rubidium 2018 Challenge (**SILVER AWARD** - 92%)
+  `DETAILS DISCLOSED UNTIL CHALLENGE WILL BE FINISHED`
+  * certificate: https://app.codility.com/cert/view/certMBNGV8-98BRXQWECWW9XFCQ/
+#
 
 * October 2018 - Krypton 2018 Challenge (**GOLDEN AWARD** - 100%)
   #### MinTrailingZeros

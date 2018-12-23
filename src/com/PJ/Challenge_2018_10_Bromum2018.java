@@ -26,8 +26,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  *
  * </pre>
  */
-@SuppressWarnings("ALL")
-public class Challenge_2018_10_Bromum2018 {
+class Challenge_2018_10_Bromum2018 {
 
   @Test
   void test() {
@@ -42,13 +41,10 @@ public class Challenge_2018_10_Bromum2018 {
       return 0;
     }
 
-    Map<Integer, Map<Integer, Integer>> mapOfMaps = new HashMap();
+    Map<Integer, Map<Integer, Integer>> mapOfMaps = new HashMap<>();
 
     for (int i = 0; i < B.length; i++) {
-      if (mapOfMaps.get(B[i]) == null) {
-        mapOfMaps.put(B[i], new HashMap<>());
-      }
-
+      mapOfMaps.computeIfAbsent(B[i], k -> new HashMap<>());
       Map<Integer, Integer> currentMap = mapOfMaps.get(B[i]);
 
       if (!currentMap.keySet().contains(C[i])) {
@@ -63,14 +59,6 @@ public class Challenge_2018_10_Bromum2018 {
       }
     }
     return -1;
-  }
-
-  private boolean arrayContainsValue(int[] B, int i) {
-    for (final int e : B)
-      if (e == i) {
-        return true;
-      }
-    return false;
   }
 
 }

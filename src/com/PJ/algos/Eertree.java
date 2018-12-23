@@ -1,7 +1,6 @@
 package com.PJ.algos;
 
-
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -9,8 +8,8 @@ import java.util.List;
 import java.util.Map;
 
 import static java.util.Arrays.asList;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 /**
  * <pre>
@@ -46,15 +45,14 @@ import static org.junit.Assert.assertNotEquals;
  *
  * </pre>
  */
-@SuppressWarnings({"LocalCanBeFinal", "JavaDoc", "NonFinalUtilityClass", "FieldCanBeLocal", "SpellCheckingInspection"})
-public class Eertree {
+@SuppressWarnings("SpellCheckingInspection")
+class Eertree {
 
-  private static String EMPTY_STRING = "";
   private static int IMAGINARY_NODE_ID = -1;
   private static int NULL_NODE_ID = 0;
 
   @Test
-  public void test() {
+  void test() {
     assertEquals(new ArrayList<>(asList("ee", "rtr", "ertre", "eertree")), solution("eertree"));
     assertEquals(new ArrayList<>(asList("ee", "tt", "rttr", "erttre", "eerttree", "tt")), solution("dwqeerttreeghtyh"));
     assertEquals(new ArrayList<>(), solution("ab"));
@@ -118,10 +116,10 @@ public class Eertree {
   }
 
   private Map<Integer, Node> preinitializeNodesMap() {
-    Node imaginaryNode = new Node(IMAGINARY_NODE_ID, EMPTY_STRING, -1);
+    Node imaginaryNode = new Node(IMAGINARY_NODE_ID, "", -1);
     imaginaryNode.suffixLinkOutgoingNode = imaginaryNode;
 
-    Node nullStringNode = new Node(NULL_NODE_ID, EMPTY_STRING, 0);
+    Node nullStringNode = new Node(NULL_NODE_ID, "", 0);
     nullStringNode.suffixLinkOutgoingNode = imaginaryNode;
 
     Map<Integer, Node> map = new HashMap<>();

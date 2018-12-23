@@ -23,8 +23,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  *
  * </pre>
  */
-@SuppressWarnings("ALL")
-public class Challenge_2018_10_Krypton2018 {
+class Challenge_2018_10_Krypton2018 {
 
   @Test
   void test() {
@@ -39,7 +38,6 @@ public class Challenge_2018_10_Krypton2018 {
   private int solution(int[][] A) {
     int size = A.length;
     boolean containsZero = false;
-    int[][] minProducts = new int[size][size];
 
     int[][][] divisionMatrix = new int[size][size][2];
     int[][][] divisionMatrixSum = new int[size][size][2];

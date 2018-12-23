@@ -23,8 +23,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  *
  * </pre>
  */
-@SuppressWarnings("ALL")
-public class Challenge_2018_08_DigitalGold {
+class Challenge_2018_08_DigitalGold {
 
   @Test
   void test() {
@@ -41,13 +40,13 @@ public class Challenge_2018_08_DigitalGold {
     return result;
   }
 
-  private int getSolutions(int dimension, int[] coords) {
+  private int getSolutions(int dimension, int[] coordinates) {
     int tempResult = 0;
 
     for (int i = 0; i < dimension - 1; i++) {
       int minesOneSide = 0;
       int minesOtherSide = 0;
-      for (int row : coords) {
+      for (int row : coordinates) {
         if (row <= i) {
           minesOneSide++;
         } else {

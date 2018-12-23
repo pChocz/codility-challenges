@@ -26,15 +26,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  *
  * </pre>
  */
-
-@SuppressWarnings({"LocalCanBeFinal", "Convert2streamapi", "MagicNumber"})
 class ClosestPair {
 
   private static final double DELTA = 0.001;
 
   @Test
   void test_small() {
-    assertEquals(1, solution(new int[]{0, 10, 20, 29, 30, 40, 50}, new int[]{1, 1, 1, 1, 1, 1, 1}, false));
+    assertEquals(1, solution(new int[]{0, 10, 20, 29, 30, 40, 50}, new int[]{1, 1, 1, 1, 1, 1, 1}, false), DELTA);
     assertEquals(Math.sqrt(2), solution(new int[]{0, 0, 10, 10, 1}, new int[]{0, 10, 0, 10, 1}, false), DELTA);
     assertEquals(Math.sqrt(2), solution(new int[]{0, 1}, new int[]{0, 1}, false), DELTA);
     assertEquals(10, solution(new int[]{0, 0, 10, 10}, new int[]{0, 10, 0, 10}, false), DELTA);

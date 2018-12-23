@@ -2,9 +2,7 @@ package com.PJ;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -27,8 +25,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  *
  * </pre>
  */
-@SuppressWarnings("ALL")
-public class Challenge_2018_09_GrandChallenge {
+class Challenge_2018_09_GrandChallenge {
 
   @Test
   void test() {
@@ -55,7 +52,6 @@ public class Challenge_2018_09_GrandChallenge {
 
   private boolean checkIfStringIsBalanced(String S) {
     Map<Character, Integer> map = new HashMap<>();
-    List<Character> list = new ArrayList<>();
 
     for (int i = 0; i < S.length(); i++) {
       Character character = S.charAt(i);
@@ -63,15 +59,12 @@ public class Challenge_2018_09_GrandChallenge {
       if (!map.keySet().contains(character)) {
         map.put(character, 1);
       } else {
-        int count = map.containsKey(character) ? map.get(character) : 0;
+        int count = map.getOrDefault(character, 0);
         map.put(character, count + 1);
       }
     }
 
-    if (map.size() == 2 && map.values().toArray()[0] == map.values().toArray()[1]) {
-      return true;
-    }
-    return false;
+    return map.size() == 2 && map.values().toArray()[0] == map.values().toArray()[1];
   }
 
 }

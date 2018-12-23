@@ -13,9 +13,10 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 
 /**
+ * <pre>
+ *
  * Eertree algorithm implementation, based on:
  *
- * <pre>
  *    EERTREE: An Efficient Data Structure for
  *       Processing Palindromes in Strings
  *
@@ -52,14 +53,18 @@ public class Eertree {
   private static int IMAGINARY_NODE_ID = -1;
   private static int NULL_NODE_ID = 0;
 
-  public static void main(String[] args) {
-    System.out.println(solution("eertree"));
-    System.out.println(solution("ab"));
-    System.out.println(solution("abba"));
-    System.out.println(solution("mrowlworm"));
+  @Test
+  public void test() {
+    assertEquals(new ArrayList<>(asList("ee", "rtr", "ertre", "eertree")), solution("eertree"));
+    assertEquals(new ArrayList<>(asList("ee", "tt", "rttr", "erttre", "eerttree", "tt")), solution("dwqeerttreeghtyh"));
+    assertEquals(new ArrayList<>(), solution("ab"));
+    assertEquals(new ArrayList<>(asList("bb", "abba")), solution("abba"));
+    assertEquals(new ArrayList<>(asList("wlw", "owlwo", "rowlwor", "mrowlworm")), solution("mrowlworm"));
+    assertEquals(new ArrayList<>(), solution("a"));
+    assertNotEquals(new ArrayList<>(), solution("aa"));
   }
 
-  private static List<String> solution(String string) {
+  private List<String> solution(String string) {
     int stringLength = string.length();
     Map<Integer, Node> allNodes = preinitializeNodesMap();
 
@@ -112,7 +117,7 @@ public class Eertree {
     return allPalindromes;
   }
 
-  private static Map<Integer, Node> preinitializeNodesMap() {
+  private Map<Integer, Node> preinitializeNodesMap() {
     Node imaginaryNode = new Node(IMAGINARY_NODE_ID, EMPTY_STRING, -1);
     imaginaryNode.suffixLinkOutgoingNode = imaginaryNode;
 
@@ -126,7 +131,7 @@ public class Eertree {
     return map;
   }
 
-  private static String setProperCandidate(Node traversedNode, String currentLetter) {
+  private String setProperCandidate(Node traversedNode, String currentLetter) {
     if (traversedNode.id == IMAGINARY_NODE_ID) {
       return currentLetter;
     } else {
@@ -147,7 +152,7 @@ public class Eertree {
    * @param value  value in which we examine existence of a suffix
    * @return TRUE if suffix is a proper suffix string of the value string
    */
-  private static boolean isProperSuffixOfValue(String suffix, String value) {
+  private boolean isProperSuffixOfValue(String suffix, String value) {
     char[] charArrayValue = value.toCharArray();
     char[] charArraySuffix = suffix.toCharArray();
 
@@ -164,24 +169,13 @@ public class Eertree {
 
   }
 
-  @Test
-  public void test_01() {
-    assertEquals(new ArrayList<>(asList("ee", "rtr", "ertre", "eertree")), solution("eertree"));
-    assertEquals(new ArrayList<>(asList("ee", "tt", "rttr", "erttre", "eerttree", "tt")), solution("dwqeerttreeghtyh"));
-    assertEquals(new ArrayList<>(), solution("ab"));
-    assertEquals(new ArrayList<>(asList("bb", "abba")), solution("abba"));
-    assertEquals(new ArrayList<>(asList("wlw", "owlwo", "rowlwor", "mrowlworm")), solution("mrowlworm"));
-    assertEquals(new ArrayList<>(), solution("a"));
-    assertNotEquals(new ArrayList<>(), solution("aa"));
-  }
-
   /**
    * Class representing single node of the palindromic tree. Each node consists of:
    * - single incoming insertion link (labeled with insertion letter)
    * - multiple outgoing insertion links (labeled with the insertion letter), stored in a Map
    * - single outgoing suffix link (unlabeled)
    */
-  static class Node {
+  class Node {
     int id;
     String value;
     int length;

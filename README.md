@@ -8,7 +8,11 @@ detailed description as well as to the full solution report. In the [sources](/s
 code for all the attempts listed below, together with test cases that I have used for the verification that
 it works properly.
 
-### Awards:
+### Summary
+* 2 Golden Awards
+* 3 Silver Awards
+
+### Awards
 
 * December 2018 - Rubidium 2018 Challenge (**SILVER AWARD** - 92%)
   

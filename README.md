@@ -15,8 +15,9 @@ it works properly.
 ### Awards
 
 * December 2018 - Rubidium 2018 Challenge (**SILVER AWARD** - 92%)
-  
-  `DETAILS DISCLOSED UNTIL CHALLENGE WILL BE FINISHED`
+  #### SheepAndSunshades
+  ##### Given a set of points on a cartesian plane, find the minimum distance between some pair of them to maximise another metric.
+  * detailed description: https://app.codility.com/programmers/task/min_trailing_zeros/
   * certificate: https://app.codility.com/cert/view/cert8GGX7N-TDD3XHT4HXG58JSP/
 #
 

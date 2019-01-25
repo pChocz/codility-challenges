@@ -14,7 +14,7 @@ it works properly.
 
 ### Awards
 
-* January 2019 - Strontium 2018 Challenge (**GOLDEN AWARD** - 100%)
+* January 2019 - Strontium 2019 Challenge (**GOLDEN AWARD** - 100%)
 
   `DETAILS DISCLOSED UNTIL CHALLENGE WILL BE FINISHED`
   * certificate: https://app.codility.com/cert/view/certN2QEB7-EDK7U97DF47AF77P/

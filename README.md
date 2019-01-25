@@ -9,10 +9,16 @@ code for all the attempts listed below, together with test cases that I have use
 it works properly.
 
 ### Summary
-* 2 Golden Awards
+* 3 Golden Awards
 * 3 Silver Awards
 
 ### Awards
+
+* January 2019 - Strontium 2018 Challenge (**GOLDEN AWARD** - 100%)
+
+  `DETAILS DISCLOSED UNTIL CHALLENGE WILL BE FINISHED`
+  * certificate: https://app.codility.com/cert/view/certN2QEB7-EDK7U97DF47AF77P/
+#
 
 * December 2018 - Rubidium 2018 Challenge (**SILVER AWARD** - 92%)
   #### SheepAndSunshades

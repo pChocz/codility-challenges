@@ -15,15 +15,16 @@ it works properly.
 ### Awards
 
 * January 2019 - Strontium 2019 Challenge (**GOLDEN AWARD** - 100%)
-
-  `DETAILS DISCLOSED UNTIL CHALLENGE WILL BE FINISHED`
+  #### ConcatenatingOfWords
+  ##### Concatenate the given words in such a way as to obtain a single word with the longest possible substring composed of one particular letter.
+  * detailed description: https://app.codility.com/programmers/task/concatenating_of_words/
   * certificate: https://app.codility.com/cert/view/certN2QEB7-EDK7U97DF47AF77P/
 #
 
 * December 2018 - Rubidium 2018 Challenge (**SILVER AWARD** - 92%)
   #### SheepAndSunshades
   ##### Given a set of points on a cartesian plane, find the minimum distance between some pair of them to maximise another metric.
-  * detailed description: https://app.codility.com/programmers/task/min_trailing_zeros/
+  * detailed description: https://app.codility.com/programmers/task/sheep_and_sunshades/
   * certificate: https://app.codility.com/cert/view/cert8GGX7N-TDD3XHT4HXG58JSP/
 #
 

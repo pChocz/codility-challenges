@@ -9,8 +9,8 @@ code for all the attempts listed below, together with test cases that I have use
 it works properly.
 
 ### Summary
-* 3 Golden Awards ![golden award](https://img.icons8.com/office/40/000000/trophy.png)
-* 3 Silver Awards ![golden award](https://img.icons8.com/ultraviolet/40/000000/trophy.png)
+* 3 Golden Awards ![golden award](https://img.icons8.com/office/16/000000/trophy.png)
+* 3 Silver Awards ![golden award](https://img.icons8.com/ultraviolet/16/000000/trophy.png)
 
 ### Awards
 

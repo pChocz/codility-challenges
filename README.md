@@ -9,16 +9,17 @@ code for all the attempts listed below, together with test cases that I have use
 it works properly.
 
 ### Summary
-* ![golden award](https://img.icons8.com/office/16/000000/trophy.png) 3 Golden Awards
-* ![golden award](https://img.icons8.com/ultraviolet/16/000000/trophy.png) 3 Silver Awards 
+![golden award](https://img.icons8.com/office/16/000000/trophy.png) 3 Golden Awards
+
+![golden award](https://img.icons8.com/ultraviolet/16/000000/trophy.png) 3 Silver Awards 
 
 ### Awards
 
 * January 2019 - Strontium 2019 Challenge (**GOLDEN AWARD** - 100%)
   #### ConcatenatingOfWords
   ##### Concatenate the given words in such a way as to obtain a single word with the longest possible substring composed of one particular letter.
-  * detailed description: https://app.codility.com/programmers/task/concatenating_of_words/
-  * certificate: https://app.codility.com/cert/view/certN2QEB7-EDK7U97DF47AF77P/
+  * [`detailed description`](https://app.codility.com/programmers/task/concatenating_of_words/)
+  * [`certificate`](https://app.codility.com/cert/view/certN2QEB7-EDK7U97DF47AF77P/)
   * [`link to my solution`](/src/com/PJ/Challenge_2019_01_Strontium2019.java)
 #
 

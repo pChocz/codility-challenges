@@ -10,10 +10,14 @@ detailed description as well as to the full solution report. In the [`sources`](
 code for all the attempts listed below, together with test cases that I have used for the verification that
 it works properly.
 
+#
+
 ### Summary
 ![golden award][golden_url] 3 Golden Awards
 
 ![silver award][silver_url] 3 Silver Awards 
+
+#
 
 ### Awards
 

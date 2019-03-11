@@ -1,3 +1,5 @@
+[golden_url]: https://img.icons8.com/office/16/000000/trophy.png "Golden Award Pic"
+[silver_url]: https://img.icons8.com/ultraviolet/16/000000/trophy.png "Silver Award Pic"
 # CodilityChallenges
 
 ## My successful attempts of the Codility Challenges, newest to oldest.
@@ -9,13 +11,13 @@ code for all the attempts listed below, together with test cases that I have use
 it works properly.
 
 ### Summary
-![golden award](https://img.icons8.com/office/16/000000/trophy.png) 3 Golden Awards
+![golden award][golden_url] 3 Golden Awards
 
-![silver award](https://img.icons8.com/ultraviolet/16/000000/trophy.png) 3 Silver Awards 
+![silver award][silver_url] 3 Silver Awards 
 
 ### Awards
 
-* ![golden award](https://img.icons8.com/office/16/000000/trophy.png) January 2019 - Strontium 2019 Challenge (**GOLDEN AWARD** - 100%)
+* ![golden award][golden_url] January 2019 - Strontium 2019 Challenge (**GOLDEN AWARD** - 100%)
   #### ConcatenatingOfWords
   ##### Concatenate the given words in such a way as to obtain a single word with the longest possible substring composed of one particular letter.
   * [`detailed description`](https://app.codility.com/programmers/task/concatenating_of_words/)
@@ -23,7 +25,7 @@ it works properly.
   * [`link to my solution`](/src/com/PJ/Challenge_2019_01_Strontium2019.java)
 #
 
-* ![silver award](https://img.icons8.com/ultraviolet/16/000000/trophy.png) December 2018 - Rubidium 2018 Challenge (**SILVER AWARD** - 92%)
+* ![silver award][silver_url] December 2018 - Rubidium 2018 Challenge (**SILVER AWARD** - 92%)
   #### SheepAndSunshades
   ##### Given a set of points on a cartesian plane, find the minimum distance between some pair of them to maximise another metric.
   * detailed description: https://app.codility.com/programmers/task/sheep_and_sunshades/

@@ -13,13 +13,18 @@ it works properly.
 #
 
 ### Summary
-![golden award][golden_url] 3 Golden Awards
+![golden award][golden_url] 4 Golden Awards
 
 ![silver award][silver_url] 3 Silver Awards 
 
 #
 
 ### Awards
+
+* ![golden award][golden_url] March 2019 - Zirconium 2019 Challenge (**GOLDEN AWARD** - 100%)
+  * [`certificate`](https://app.codility.com/cert/view/certMUJGEN-RYJ49DJMYJ3GRD54/)
+  * `details disclosed and no solution provided as for now`
+#
 
 * ![golden award][golden_url] January 2019 - Strontium 2019 Challenge (**GOLDEN AWARD** - 100%)
   #### ConcatenatingOfWords

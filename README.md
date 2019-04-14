@@ -73,3 +73,13 @@ it works properly.
   * [`certificate`](https://app.codility.com/cert/view/certW8V56S-84QRAUSMNUY8FPYF/)
   * [`link to my solution`](/src/com/PJ/Challenge_2018_08_DigitalGold.java)
 #
+
+### Other challenges solved (not awarded)
+
+* March 2018 - Nickel 2018 Challenge (90%)
+  #### PascalTriangle
+  ##### Compute the number of "True" values in an OR-Pascal-triangle structure.
+  * [`detailed description`](https://app.codility.com/programmers/task/pascal_triangle/)
+  * [`solution report`]()
+  * [`link to my solution`](/src/com/PJ/Challenge_2018_03_Nickel2018.java)
+#

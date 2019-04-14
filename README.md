@@ -80,6 +80,6 @@ it works properly.
   #### PascalTriangle
   ##### Compute the number of "True" values in an OR-Pascal-triangle structure.
   * [`detailed description`](https://app.codility.com/programmers/task/pascal_triangle/)
-  * [`solution report`]()
+  * [`solution report`](https://app.codility.com/demo/results/training9CV2EY-H2W/)
   * [`link to my solution`](/src/com/PJ/Challenge_2018_03_Nickel2018.java)
 #

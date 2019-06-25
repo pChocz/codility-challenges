@@ -26,14 +26,6 @@ it works properly.
   * `details disclosed and no solution provided as for now`
 #
 
-* ![golden award][golden_url] March 2019 - Zirconium 2019 Challenge (**GOLDEN AWARD** - 100%)	* ![golden award][golden_url] March 2019 - Zirconium 2019 Challenge (**GOLDEN AWARD** - 100%)
-  #### DreamTeam
-  ##### Divide developers into two teams to maximize their total contribution.
-  * [`detailed description`](https://app.codility.com/programmers/task/dream_team/)
-  * [`certificate`](https://app.codility.com/cert/view/certMUJGEN-RYJ49DJMYJ3GRD54/)
-  * [`link to my solution`](/src/com/PJ/Challenge_2019_03_Zirconium2019.java)
-#
-
 * ![golden award][golden_url] March 2019 - Zirconium 2019 Challenge (**GOLDEN AWARD** - 100%)
   #### DreamTeam
   ##### Divide developers into two teams to maximize their total contribution.

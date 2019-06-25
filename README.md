@@ -15,11 +15,24 @@ it works properly.
 ### Summary
 ![golden award][golden_url] 4 Golden Awards
 
-![silver award][silver_url] 3 Silver Awards 
+![silver award][silver_url] 4 Silver Awards 
 
 #
 
 ### Awards
+
+* ![silver award][silver_url] May 2019 - Niobium 2019 Challenge (**SILVER AWARD** - 65%)
+  * [`certificate`](https://app.codility.com/cert/view/certAZ4ETN-2AN4SBTDPV3WE3ZC/)
+  * `details disclosed and no solution provided as for now`
+#
+
+* ![golden award][golden_url] March 2019 - Zirconium 2019 Challenge (**GOLDEN AWARD** - 100%)	* ![golden award][golden_url] March 2019 - Zirconium 2019 Challenge (**GOLDEN AWARD** - 100%)
+  #### DreamTeam
+  ##### Divide developers into two teams to maximize their total contribution.
+  * [`detailed description`](https://app.codility.com/programmers/task/dream_team/)
+  * [`certificate`](https://app.codility.com/cert/view/certMUJGEN-RYJ49DJMYJ3GRD54/)	  * [`certificate`](https://app.codility.com/cert/view/certMUJGEN-RYJ49DJMYJ3GRD54/)
+  * `details disclosed and no solution provided as for now`	  * [`link to my solution`](/src/com/PJ/Challenge_2019_03_Zirconium2019.java)
+#
 
 * ![golden award][golden_url] March 2019 - Zirconium 2019 Challenge (**GOLDEN AWARD** - 100%)
   #### DreamTeam

@@ -23,8 +23,7 @@ it works properly.
 
 * ![silver award][silver_url] May 2019 - Niobium 2019 Challenge (**SILVER AWARD** - 65%)
   #### FlippingMatrix
-  ##### A matrix of binary values is given. We can flip the values in selected columns.
-  ##### What is the maximum number of rows that we can obtain that contain all the same values?
+  ##### A matrix of binary values is given. We can flip the values in selected columns. What is the maximum number of rows that we can obtain that contain all the same values?
   * [`detailed description`](https://app.codility.com/programmers/task/flipping_matrix/)
   * [`certificate`](https://app.codility.com/cert/view/certAZ4ETN-2AN4SBTDPV3WE3ZC/)
   * [`link to my solution`](/src/com/PJ/Challenge_2019_05_Niobium2019.java)

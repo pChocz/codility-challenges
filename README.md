@@ -13,13 +13,16 @@ it works properly.
 #
 
 ### Summary
-![golden award][golden_url] 4 Golden Awards
+![golden award][golden_url] 5 Golden Awards
 
 ![silver award][silver_url] 4 Silver Awards 
 
 #
 
 ### Awards
+* ![golden award][golden_url] July 2019 - Molybdenum 2019 Challenge (**GOLDEN AWARD** - 100%)
+  * `details disclosed and no solution provided as for now`
+#
 
 * ![silver award][silver_url] May 2019 - Niobium 2019 Challenge (**SILVER AWARD** - 65%)
   #### FlippingMatrix

@@ -15,11 +15,16 @@ it works properly.
 ### Summary
 ![golden award][golden_url] 5 Golden Awards
 
-![silver award][silver_url] 4 Silver Awards 
+![silver award][silver_url] 5 Silver Awards 
 
 #
 
 ### Awards
+
+* ![silver award][silver_url] October 2019 - Technetium 2019 Challenge (**SILVER AWARD** - 77%)
+  * `details disclosed and no solution provided as for now`
+#
+
 * ![golden award][golden_url] July 2019 - Molybdenum 2019 Challenge (**GOLDEN AWARD** - 100%)
   #### LeaderSliceInc
   ##### Given an array, find all its elements that can become a leader, after increasing by 1 all of the numbers in some segment of a given length.

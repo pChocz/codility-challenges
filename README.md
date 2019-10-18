@@ -21,7 +21,11 @@ it works properly.
 
 ### Awards
 * ![golden award][golden_url] July 2019 - Molybdenum 2019 Challenge (**GOLDEN AWARD** - 100%)
-  * `details disclosed and no solution provided as for now`
+  #### LeaderSliceInc
+  ##### Given an array, find all its elements that can become a leader, after increasing by 1 all of the numbers in some segment of a given length.
+  * [`detailed description`](https://app.codility.com/programmers/task/leader_slice_inc/)
+  * [`certificate`](https://app.codility.com/cert/view/certXNNMJC-MAG6MPC5ERJ46N6C/)
+  * [`link to my solution`](/src/com/PJ/Challenge_2019_07_Molybdenum2019.java)
 #
 
 * ![silver award][silver_url] May 2019 - Niobium 2019 Challenge (**SILVER AWARD** - 65%)

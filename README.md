@@ -5,7 +5,7 @@
 ## My successful attempts of the Codility Challenges, newest to oldest.
 
 You can view my source code of performing several codility challenges. I will publish all of my successful attempts
-here so you can have a look in case you will be stuck. Below you can find a complete list with links to the
+here, so you can have a look in case you will be stuck. Below you can find a complete list with links to the
 detailed description as well as to the full solution report. In the [`sources`](/src/com/PJ/) there is source
 code for all the attempts listed below, together with test cases that I have used for the verification that
 it works properly.
@@ -22,7 +22,11 @@ it works properly.
 ### Awards
 
 * ![silver award][silver_url] October 2019 - Technetium 2019 Challenge (**SILVER AWARD** - 77%)
-  * `details disclosed and no solution provided as for now`
+  #### MaxPathFromTheLeftTopCorner
+  ##### Find a maximal value path in a matrix, starting in the top-left corner and ending in the bottom-right corner.
+  * [`detailed description`](https://app.codility.com/programmers/task/max_path_from_the_left_top_corner/)
+  * [`certificate`](https://app.codility.com/cert/view/certW5VH5S-WEGCZQ3W9PH7VJZR/)
+  * [`link to my solution`](/src/com/PJ/Challenge_2019_10_Technetium2019.java)
 #
 
 * ![golden award][golden_url] July 2019 - Molybdenum 2019 Challenge (**GOLDEN AWARD** - 100%)
